@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule vision-effects-piotr-burger-portfolio index.html
+RewriteRule	about-me aboutme.html
+RewriteRule video-editor-graphics-designer-webdeveloper-css-html-photographer software.html
+RewriteRule video-montage-web-development-graphics experience.html
+RewriteRule contact-vision-effects contact.html

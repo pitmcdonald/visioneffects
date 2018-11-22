@@ -1,0 +1,100 @@
+
+<!--VISION EFFECTS © 2016 all rights reserved -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vision Effects</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="https://38.media.tumblr.com/avatar_ae6f4740b1dc_128.png">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript">
+<!-- dodanie do zakładki -->
+function dozakladek(nazwa,url){
+if (window.sidebar)
+window.sidebar.addPanel(nazwa, url, "");
+else if(window.opera && window.print){ 
+var elem = document.createElement('a');
+elem.setAttribute('href',url);
+elem.setAttribute('title',nazwa);
+elem.setAttribute('rel','sidebar');
+elem.click();
+} 
+else if(document.all)
+window.external.AddFavorite(url, nazwa);
+}
+</script>
+  </head>
+  <body>
+    <!-- layout -->
+    <div class="container">
+      <!-- TRZY LOGA FB, YT, INSTA -->
+      <div class="logo">
+<!-- logo youtube -->
+<div class="youtube">
+  <div class="center">
+<a href="https://www.youtube.com/user/LOLIP1994"><img src="ftp://viseff@viseff.webd.pl/public_html/visioneffects.pl/logo/youtube.jpg" style="float: left;"></a>
+</div>
+</div>
+<!-- logo instagrama -->
+<div class="instagram">
+  <div class="center">
+<a href="https://www.instagram.com/pit_mcdonald/"><img src="ftp://viseff@viseff.webd.pl/public_html/visioneffects.pl/logo/instagram.jpg" width="200" height="200" style="float: left;"></a>
+</div>
+</div>
+<!-- steam logo -->
+<div class="steam">
+  <div class="center">
+<a href="http://steamcommunity.com/profiles/76561198001798098/"><img src="ftp://viseff@viseff.webd.pl/public_html/visioneffects.pl/logo/steam.jpg" width="205" height="205" style="float: left;"></a>
+</div>
+</div>
+<!--linkedin logo -->
+<div class="linkedin">
+  <div class="center">
+<a href="https://www.linkedin.com/in/piotr-burger-8219b6109?trk=nav_responsive_tab_profile_pic"><img src="ftp://viseff@viseff.webd.pl/public_html/visioneffects.pl/logo/linkedin.jpg" width="210" height="210" style="float: left;"></a>
+</div>
+</div>
+<!-- tumblr logo -->
+<div class="tumblr">
+  <div class="center">
+<a href="https://visoneffects.tumblr.com/"><img src="ftp://viseff@viseff.webd.pl/public_html/visioneffects.pl/logo/tumblr.jpg" width="205" height="205" style="float: left;"></a>
+</div>
+</div>
+</div>
+<!-- end container -->
+</div>
+
+  <!-- OVERLAY -->
+  <div id="overlaynav"  class="overlay">
+    <div class="centertext">
+<div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Works</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+  <!-- X button to close navigation -->
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+</div>
+<div class="span">
+<!-- Any element open overlay nabigation -->
+<span onclick="openNav()">INFO</span>
+<!-- OVERLAY JS SCRIPT -->
+<script type="text/javascript">
+/* Open */
+function openNav() {
+    document.getElementById("overlaynav").style.height = "100%";
+}
+
+/* Close */
+function closeNav() {
+    document.getElementById("overlaynav").style.height = "0%";
+}
+</script>
+</div>
+</body>
+</html>
